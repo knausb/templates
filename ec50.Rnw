@@ -1,0 +1,34 @@
+% Pinf EC50 for metalaxyl.
+
+\documentclass{article}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored links
+    urlcolor=blue           % color of external links
+}
+
+\title{\emph{Phytophthora infestans} metalaxyl EC50}
+\author{Brian J. Knaus}
+
+%%%%% Begin document
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+<<import>>=
+date()
+@
+
+This analysis was performed in \cite{R}.
+
+\bibliographystyle{plain}
+\bibliography{ec50.bib}
+
+\end{document}
