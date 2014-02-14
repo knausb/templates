@@ -22,7 +22,7 @@
 
 \section{Introduction}
 
-<<import>>=
+<<import, eval=TRUE>>=
 date()
 @
 
@@ -30,7 +30,7 @@ date()
 
 This analysis was performed in \cite{R}.
 
-<<sess>>=
+<<sess, eval=TRUE>>=
 sessionInfo()
 @
 
